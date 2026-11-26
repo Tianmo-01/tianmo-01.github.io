@@ -1,5 +1,6 @@
 ﻿body {
     background-color: #17181A;
+    transition:0.5s;
 }
 
 #Header {
@@ -11,6 +12,7 @@
     position: fixed;
     top: 0;
     width: 100%;
+    transition:0.5s;
 }
 
 .Header {
@@ -26,13 +28,15 @@
 }
 
 .Main {
-    margin: auto;
+    margin:auto;
+    margin-top: 20px;
     width: 80%;
     height: max-content;
     background-color: #252628;
     position: relative;
     top: 60px;
     padding: 20px;
+    transition:0.5s;
 }
 .link:link{
     color:white;
